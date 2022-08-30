@@ -1,0 +1,11 @@
+.tag {
+  padding: 5px;
+  width: fit-content;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.tag p {
+  margin: 0 10px;
+  font-size: 13px;
+}

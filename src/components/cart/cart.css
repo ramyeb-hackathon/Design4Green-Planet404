@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+  background-color: #5f40a5;
+  width: 20%;
+  height: 100vh;
+  max-width: 400px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartHeader {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  box-shadow: inset 0px 0px 5px rgba(95, 64, 165, 1);
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text {
+  color: #fff;
+  width: fit-content;
+  padding: 0;
+  margin: auto;
+}
+
+.lineHorizontal {
+  width: 50%;
+  height: 1px;
+  background-color: white;
+}
+
+.image {
+  width: 30px;
+}
+
+.blob1 {
+  position: absolute;
+  bottom: 80px;
+  right: 45px;
+  display: none;
+}
+
+.blob2 {
+  position: absolute;
+  bottom: 400px;
+  display: none;
+}
+
+.blob3 {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  display: none;
+}
+
+.cardContainer {
+  padding: 20px;
+  padding-top: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.card {
+  padding: 10px 0px;
+}

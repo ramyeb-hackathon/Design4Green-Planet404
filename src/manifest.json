@@ -1,0 +1,9 @@
+{
+  "name": "Planet 404",
+  "short_name": "Planet 404",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#5F40A5"
+}

@@ -1,0 +1,94 @@
+.roadmapContainer {
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 5vh;
+  overflow-y: scroll;
+}
+
+.verticalLine {
+  height: calc(100vh / 40);
+  width: 5px;
+  background-color: #5f40a5;
+}
+
+.title {
+  color: #5f40a5;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+
+.subtitle {
+  color: #5f40a5;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
+.verticalItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.generate {
+  background-color: #9a2149;
+  margin: 16px 0px;
+  border-radius: 16px;
+  border: 2px solid #9a2149;
+  color: #ffff;
+  height: max-content;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.acquisition {
+  border: solid #5d50de 5px;
+}
+
+.conception {
+  border: solid #f98f01 5px;
+}
+
+.realisation {
+  border: solid #f82e19 5px;
+}
+
+.deploiement {
+  border: solid #63a375 5px;
+}
+
+.administration {
+  border: solid #ad44de 5px;
+}
+
+.utilisation {
+  border: solid #fbca00 5px;
+}
+
+.maintenance {
+  border: solid #7ed4f8 5px;
+}
+
+.findevie {
+  border: solid #9a2149 5px;
+}
+
+.revalorisation {
+  border: solid #052f5f 5px;
+}
+
+.global {
+  border: solid #41d794 5px;
+}

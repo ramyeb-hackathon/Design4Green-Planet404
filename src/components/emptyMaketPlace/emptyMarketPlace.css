@@ -1,0 +1,12 @@
+.container {
+  background: #f2ecff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+.icon {
+  filter: drop-shadow(0px 2px 5px rgba(100, 100, 100, 0.3));
+}

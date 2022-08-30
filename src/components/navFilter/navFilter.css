@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.navItem {
+  background-color: #ffff;
+  height: fit-content;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+  margin: 0 10px 0 10px;
+}
+
+.navItem:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid #5f40a4;
+}

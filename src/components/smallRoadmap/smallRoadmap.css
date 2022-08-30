@@ -1,0 +1,117 @@
+.roadmapContainer {
+  min-width: 80px;
+  flex: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.bubble {
+  height: calc(100vh / 15);
+  width: calc(100vh / 15);
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 30px;
+  min-width: 30px;
+  background-color: #5f40a5;
+  border-radius: 100%;
+  border: solid 5px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verticalLine {
+  height: calc(100vh / 40);
+  width: 5px;
+  background-color: #5f40a5;
+}
+
+.counter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.verticalItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonIndication {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1vh;
+  background-color: #5f40a5;
+  height: calc(100vh / 20);
+  width: calc(100vh / 20);
+  border-radius: 100%;
+  opacity: 0.5;
+  animation: 0.5s linear infinite alternate slidein;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonIndication:hover {
+  cursor: pointer;
+}
+
+@keyframes slidein {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.icon {
+  margin: auto;
+  padding-right: 2px;
+}
+
+.acquisition {
+  border: solid #5d50de 5px;
+}
+.conception {
+  border: solid #f98f01 5px;
+}
+.realisation {
+  border: solid #f82e19 5px;
+}
+
+.deploiement {
+  border: solid #63a375 5px;
+}
+
+.administration {
+  border: solid #ad44de 5px;
+}
+
+.utilisation {
+  border: solid #fbca00 5px;
+}
+
+.maintenance {
+  border: solid #7ed4f8 5px;
+}
+
+.findevie {
+  border: solid #9a2149 5px;
+}
+
+.revalorisation {
+  border: solid #052f5f 5px;
+}
+
+.global {
+  border: solid #41d794 5px;
+}

@@ -1,0 +1,31 @@
+.modal {
+  height: fit-content;
+  margin: auto;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  padding: 32px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.name {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.cancel {
+  color: white;
+  float: right;
+  height: 2.3em;
+  width: 5em;
+  background-color: #5f40a5;
+  border: 1px solid #5f40a5;
+  border-radius: 5px;
+}
